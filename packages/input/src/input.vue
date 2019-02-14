@@ -65,7 +65,7 @@
           ></i>
         </span>
         <i class="el-input__icon"
-          v-if="validateState"
+          v-if=" validateState && needStatusIcon"
           :class="['el-input__validateIcon', validateIcon]">
         </i>
       </span>
